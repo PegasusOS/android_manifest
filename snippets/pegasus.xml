@@ -104,5 +104,7 @@
 
   <!-- Vendor -->
   <project path="vendor/android-prepare-vendor" name="android_vendor_android-prepare-vendor" remote="pegasusos" />
+  <project path="vendor/pegasus" name="android_vendor_pegasus" remote="pegasusos" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="pegasusos" />
 
 </manifest>

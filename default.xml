@@ -834,7 +834,6 @@
   <include name="snippets/graphene.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/pegasus.xml" />
-  <include name="snippets/seedvault.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
