@@ -110,6 +110,7 @@
   <project path="hardware/qcom/sm8150/media" name="android_hardware_qcom_sm8150_media" groups="qcom_sm8150" remote="lineageos" />
 
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineageos" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineageos" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lineageos" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="lineageos" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="lineageos" />
