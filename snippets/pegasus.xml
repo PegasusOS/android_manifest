@@ -27,6 +27,9 @@
   <!-- Developement -->
   <project path="development" name="android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="pegasusos" />
 
+  <!-- External -->
+  <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" groups="pdk-cw-fs,pdk" remote="pegasusos" />
+
   <!-- Recovery -->
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="pegasusos" />
 
