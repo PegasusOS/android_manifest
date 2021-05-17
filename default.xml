@@ -831,6 +831,7 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
   <include name="remove.xml" />
+  <include name="snippets/calyx.xml" />
   <include name="snippets/graphene.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/pegasus.xml" />

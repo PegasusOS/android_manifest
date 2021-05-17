@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="calyx"
+           fetch="https://gitlab.com/CalyxOS/"
+           revision="refs/heads/android11-qpr1" />
+
+  <!-- External -->
+  <project name="platform_external_microg_FakeStore" path="external/microg/FakeStore" remote="calyx" />
+  <project name="platform_external_microg_GmsCore" path="external/microg/GmsCore" remote="calyx" />
+  <project name="platform_external_microg_GsfProxy" path="external/microg/GsfProxy" remote="calyx" />
+  <project name="platform_external_microg_UnifiedNlp" path="external/microg/UnifiedNlp" remote="calyx" />
+
+  <!-- Packages -->
+  <project name="platform_packages_apps_AuroraStorePrivilegedExtension" path="packages/apps/AuroraStorePrivilegedExtension" remote="calyx" />
+  <project name="platform_packages_apps_F-DroidPrivilegedExtension" path="packages/apps/F-DroidPrivilegedExtension" remote="calyx" />
+  <project name="platform_packages_apps_Firewall" path="packages/apps/Firewall" remote="calyx" />
+  <project name="platform_packages_apps_Ripple" path="packages/apps/Ripple" remote="calyx" />
+
+  <!-- Prebuilts -->
+  <project name="platform_prebuilts_calyx_fdroid" path="prebuilts/calyx/fdroid" remote="calyx" clone-depth="1" />
+  <project name="platform_prebuilts_calyx_microg" path="prebuilts/calyx/microg" remote="calyx" clone-depth="1" />
+
+</manifest>
