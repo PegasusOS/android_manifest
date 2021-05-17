@@ -102,6 +102,7 @@
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="pegasusos" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="pegasusos" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="pegasusos" />
+  <project path="system/netd" name="android_system_netd" groups="pdk" remote="pegasusos" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="pegasusos" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="pegasusos" />
 
