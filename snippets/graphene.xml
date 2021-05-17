@@ -8,7 +8,6 @@
   <!-- External -->
   <project path="external/conscrypt" name="platform_external_conscrypt" groups="pdk" remote="grapheneos" />
   <project path="external/talkback" name="platform_external_talkback" remote="grapheneos" />
-  <project path="external/vanadium" name="platform_external_vanadium" remote="grapheneos" clone-depth="1" />
 
   <!-- Malloc -->
   <project path="external/hardened_malloc" name="hardened_malloc" remote="grapheneos" />
