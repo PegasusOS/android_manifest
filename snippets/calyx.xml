@@ -18,7 +18,6 @@
   <project name="platform_packages_apps_Ripple" path="packages/apps/Ripple" remote="calyx" />
 
   <!-- Prebuilts -->
-  <project name="platform_prebuilts_calyx_fdroid" path="prebuilts/calyx/fdroid" remote="calyx" clone-depth="1" />
   <project name="platform_prebuilts_calyx_microg" path="prebuilts/calyx/microg" remote="calyx" clone-depth="1" />
 
 </manifest>
