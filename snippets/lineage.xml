@@ -7,6 +7,7 @@
 
   <!-- LineageOS additions -->
   <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="lineageos" />
+  <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="lineageos" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="lineageos" />
   <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="lineageos" />
   <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="lineageos" />
