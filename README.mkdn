@@ -1,9 +1,21 @@
 PegasusOS
 ===========
 
+Getting Started
+---------------
+
+To get started with Android, you'll need to get
+familiar with [Git and Repo](https://source.android.com/setup/develop/repo).
+
+
+Setup ssh keys and add it to github then, for easy sync
+
+    eval `ssh-agent -s`
+    ssh-add
+
 To initialize your local repository using the trees, use a command like this:
 
-    repo init -u git@github.com:PegasusOS/android_manifest.git -b 11
+    repo init -u https://github.com/PegasusOS/android_manifest -b 11
 
 Then to sync up:
 
@@ -13,3 +25,27 @@ OR, for those with limited bandwidth/storage:
 
     repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
+Run this command if you need ccache (one-time only- 100gb ccache setup) 
+
+    ccache -M 100G
+    
+Run this to enable ccache (each day)
+
+    export USE_CCACHE=1
+    export CCACHE_EXEC=$(command -v ccache)
+
+For marlin: Generate verity keys in the format used by the kernel for Pixel XL
+
+    openssl x509 -outform der -in keys/marlin/verity.x509.pem -out kernel/google/marlin/verifiedboot_marlin_relkeys.der.x509
+
+To Build rom (factory and ota build)
+
+    source script/envsetup.sh
+    lunch aosp_marlin-user
+	m target-files-package otatools-package && script/release.sh marlin
+
+To Build rom (normal ota zips - not signed)
+
+    source script/envsetup.sh
+    lunch aosp_marlin-user
+    m otapackage
