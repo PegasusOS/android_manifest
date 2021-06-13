@@ -42,6 +42,7 @@
   <project path="device/google/bonito" name="android_device_google_bonito" groups="device,bonito" remote="pegasusos" />
   <project path="device/google/bonito-sepolicy" name="android_device_google_bonito-sepolicy" groups="device,bonito" remote="pegasusos" />
   <project path="device/google/marlin" name="android_device_google_marlin" groups="device,marlin" remote="pegasusos" />
+  <project path="device/pegasus/sepolicy" name="android_device_pegasus_sepolicy" remote="pegasusos" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="pegasusos" />
