@@ -23,7 +23,6 @@
   <remove-project name="device/generic/goldfish" />
   <remove-project name="device/google/bonito" />
   <remove-project name="device/google/bonito-kernel" />
-  <remove-project name="device/google/bonito-sepolicy" />
   <remove-project name="device/google/sunfish" />
   <remove-project name="device/google/sunfish-kernel" />
   <remove-project name="device/google/sunfish-sepolicy" />

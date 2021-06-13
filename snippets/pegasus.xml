@@ -40,7 +40,6 @@
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="pegasusos" />
   <project path="device/common" name="android_device_common" groups="pdk-cw-fs,pdk" remote="pegasusos" />
   <project path="device/google/bonito" name="android_device_google_bonito" groups="device,bonito" remote="pegasusos" />
-  <project path="device/google/bonito-sepolicy" name="android_device_google_bonito-sepolicy" groups="device,bonito" remote="pegasusos" />
   <project path="device/google/marlin" name="android_device_google_marlin" groups="device,marlin" remote="pegasusos" />
   <project path="device/pegasus/sepolicy" name="android_device_pegasus_sepolicy" remote="pegasusos" />
 
