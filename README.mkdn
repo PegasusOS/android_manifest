@@ -7,11 +7,22 @@ Getting Started
 To get started with Android, you'll need to get
 familiar with [Git and Repo](https://source.android.com/setup/develop/repo).
 
+Set up your build environment
 
-Setup ssh keys and add it to github then, for easy sync
+    sudo apt-get install git-core
+    git clone https://github.com/akhilnarang/scripts
+    cd scripts
+    bash setup/android_build_env.sh
 
-    eval `ssh-agent -s`
-    ssh-add
+Then run these commands to get git all working:
+
+    git config --global user.email "you@example.com"
+    git config --global user.name "Your Name"
+
+Create a folder for PegasusOS and open it
+
+    mkdir pegasus
+    cd pegasus
 
 To initialize your local repository using the trees, use a command like this:
 
