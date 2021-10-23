@@ -1,0 +1,15 @@
+PegasusOS
+===========
+
+To initialize your local repository using the trees, use a command like this:
+
+    repo init -u git@github.com:PegasusOS/android_manifest -b 12
+
+Then to sync up:
+
+    repo sync --force-sync
+
+OR, for those with limited bandwidth/storage:
+
+    repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+
